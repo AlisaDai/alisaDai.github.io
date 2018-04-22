@@ -1,0 +1,28 @@
+body, html { 
+    /* The image used */
+    background-image: url("data/notesbg.jpg");
+
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+	
+}
+#titleimg {
+	width: 80px;
+}
+.bgformat {
+	padding:40px 30px 60px 30px;
+}
+.coverpage {
+	text-align: center;
+}
+.layer1 {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:-1;
+}
